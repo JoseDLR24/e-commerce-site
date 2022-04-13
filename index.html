@@ -7,6 +7,7 @@
     <title>Fixed Gear Bike</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="index.js" defer></script>
 </head>
 <body>
     <nav class="navigation-bar">
@@ -26,9 +27,9 @@
         
         <div class="product">
             <div id="prd-img">
-                <div class="full-img">
+                <div class="full-img" id="fullImgBox">
                     <img src="images/pic1.jpeg" id="fullImg" />
-                    <span>X</span>
+                    <span onclick="closeFullImg()">X</span>
                 </div>
                 <img src="images/pic0.jpg" id="fullimg"/>
                 <div class="img-gallery">

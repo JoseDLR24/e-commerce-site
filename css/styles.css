@@ -169,7 +169,7 @@ h4,
 /* this is to make the page work properly */
 
 .full-img {
-  /* display: none; */
+  display: none;
   width: 100%;
   height: 100vh;
   background: rgba(0, 0, 0, 0.9);
