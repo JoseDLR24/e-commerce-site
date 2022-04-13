@@ -12,10 +12,13 @@ h2 {
   margin-top: 0;
 }
 
+.prdheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 h3 {
-  position: absolute;
-  top: 78px;
-  right: 680px;
   font-size: 40px;
 }
 
@@ -71,7 +74,11 @@ li a:hover {
 /* aside info is the ID for the description container (description text, and buttons) */
 
 #aside-info {
+  margin-top: 2em;
   width: 50%;
+  height: min-content;
+  background-color: lightgray;
+  padding-bottom: 30px;
 }
 
 #prd-img {
@@ -119,7 +126,6 @@ footer {
 /* code for description and buttons */
 
 #item-descr p:nth-child(1) {
-  padding-top: 15px;
   width: 600px;
 }
 
